@@ -1,0 +1,58 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    background-color: rgb(67, 68, 75);
+}
+#logo{
+    width: 5em;
+}
+#presentacion{
+    width: 42em;
+    text-align: end;
+    color: white;
+    position:absolute;
+    top: 20em;
+    left: 31.5em;
+}
+#presentacion>p{
+    font-weight:470;
+    font-size: 1.3em;
+}
+#presentacion>h1{
+    font-size: 3.5em;
+}
+.titulo-oradores{
+    text-align: center;
+    margin: 2em;
+}
+#carousel-image{
+    filter: brightness(50%);
+    width:100%;
+}
+.honolulu{
+    margin-top: 3rem;
+    background-color: rgb(67, 68, 75);
+    width: 50%;
+    color: white;
+    text-align: justify;
+}
+#honolulu-text{
+    padding: 2rem;
+}
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-area{
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+footer{
+    background: rgb(44,70,83);
+    background: linear-gradient(90deg, rgba(44,70,83,1) 0%, rgba(44,44,117,1) 50%, rgba(9,121,144,1) 100%);
+    padding: 2%;
+    margin-top:1%;
+}
