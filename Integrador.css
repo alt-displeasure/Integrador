@@ -22,7 +22,7 @@ nav{
 #presentacion>h1{
     font-size: 3.5em;
 }
-.titulo-oradores{
+.titulo-oradores, .titulo-venta{
     text-align: center;
     margin: 2em;
 }
@@ -55,4 +55,9 @@ footer{
     background: linear-gradient(90deg, rgba(44,70,83,1) 0%, rgba(44,44,117,1) 50%, rgba(9,121,144,1) 100%);
     padding: 2%;
     margin-top:1%;
+}
+
+#optionCards{
+    position: relative;
+    top: 7em;
 }
